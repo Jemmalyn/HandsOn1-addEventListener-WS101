@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: url(https://1.bp.blogspot.com/-omQ_sn4ezWA/Xb1NKEobYbI/AAAAAAABNtI/hvJO8iHbLE8PNl6ly2UNQd8cQ7H8pCXgQCLcBGAsYHQ/s1600/ezgif.com-rotate.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            font-family: cursive;
+            text-align: center;
+            height: 100vh;
+            padding-top: 250px;
+            color: rgb(132, 208, 221);
+        }
+        button{
+            height: 50px;
+            width: 80px;
+            background-color: rgb(154, 246, 211);
+            font-weight: bold;
+            font-family: cursive;
+            color: rgb(97, 6, 79);
+            border-radius: 10px;
+        }
+        button:hover {
+            background-color: rgb(102, 204, 211);
+            color: #fff;
+            border-radius: 70px;
+}
+    </style>
+</head>
+<body>
+    <h1> JavaScript addEventListener() Hands-on.</h1>
+        <button id="btn1">Button 1</button>
+        <button id="btn2">Button 2</button>
+        <button id="btn3">Button 3</button>
+    <script>
+        document.getElementById("btn1").addEventListener("click", btn1function);
+        document.getElementById("btn2").addEventListener("click", btn2function);
+        document.getElementById("btn3").addEventListener("click", btn3function);
+
+        function btn1function() {
+            alert("Button 1 was clicked!");
+        }
+        function btn2function() {
+            alert("Button 2 was clicked!");
+        }
+        function btn3function() {
+            alert("Button 3 was clicked!");
+        }
+    </script>
+
+</body>
+</html>
